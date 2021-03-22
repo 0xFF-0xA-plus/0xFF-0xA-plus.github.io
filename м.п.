@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <title>0xFF + 0xA м.п.</title>
+        <title>0xFF + 0xA</title>
     </head>
     <body>
         <h1 title="Because the Reverse Polish Notation ROCKS!">
@@ -9,7 +9,7 @@
                 0xFF + 0xA
             </span>
             <span id="address"> 
-                м.п.
+                М.П.
             </span>
         </h1>
     </body>
