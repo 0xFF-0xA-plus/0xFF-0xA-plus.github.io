@@ -6,11 +6,9 @@
 }
 
 body {
-    background-position: center;
     background-image: url(/images/invert.jpeg);
     background-repeat: repeat;
     background-size: 33%;
-    /* background-position-x: -50%; */
     background-position-y: -50%;
     display: flex;
     justify-content: center;
