@@ -7,10 +7,15 @@
 
 body {
     background-position: center;
+    background-image: url(images/invert.jpeg);
+    background-repeat: repeat;
+    background-size: 15%;
+    /* background-position-x: -50%; */
+    background-position-y: -50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000cc;
+    color: #a8071eff;
 }
 
 @font-face {
@@ -37,11 +42,16 @@ body {
     src: url(fonts/WiredMono-Light.woff2) format("woff2")
 }
 
+h1 * {
+    font-size: 2em;
+    color: #a8071eff;
+}
+
 h1 span#number {
     display: block;
-    transform: rotate(-3deg);
-    border: 6px solid #000000cc;
-    padding: 0.2em 0.3em;
+    transform: rotate(-2deg);
+    border: .15em solid #a8071eff;
+    padding: 0.2em 0.25em;
     font-family: "WiredMono";
     font-variant-caps: small-caps;
     font-weight: 700;
@@ -49,10 +59,9 @@ h1 span#number {
 
 h1 span#address {
     display: block;
-    margin-top: 0.4em;
+    margin-top: 0.3em;
     text-align: center;
-    color: #000;
-    font-weight: 300;
+    font-weight: 400;
     font-family: sans-serif;
-    font-size: 0.8em;
+    font-size: 1em;
 }
